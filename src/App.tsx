@@ -7,7 +7,7 @@ import type { Todo } from "./modal/modal.ts";    // Import Todo type from modal 
 // Main App component
 const App = () => {
   // State to store current input value
-  const [todo, setTodo] = useState<string | number>("");
+  const [todo, setTodo] = useState<string>("");
 
   // State to store all todo items
   const [allTodo, setAllTodo] = useState<Todo[]>([]);

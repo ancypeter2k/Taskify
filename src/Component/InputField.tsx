@@ -3,7 +3,7 @@ import "./style.css";
 
 interface Props {
   todo: string;
-  setTodo: React.Dispatch<React.SetStateAction<string | number>>;
+  setTodo: React.Dispatch<React.SetStateAction<string>>;
   handleAdd: (e: React.FormEvent) => void;
 }
 
